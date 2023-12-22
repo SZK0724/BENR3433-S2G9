@@ -59,4 +59,4 @@ jobs:
           app-name: 'samzhikang'
           slot-name: 'Production'
           package: .
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_5F87D1A1B37F431C85BADE534C2C1D26 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_196994C1EA6841068341E24794CCCA7F }}
