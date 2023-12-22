@@ -63,9 +63,8 @@ app.listen(port, () => {
 });
 
 
-app.get('/sam', (req, res) => {
-  res.send('Name:O HaeWon')
-})
+
 app.get('/', (req, res) => {
-  res.send('Name:HELLOW WORLD')
-})
+    res.send('Hello World!')
+ })
+ 
