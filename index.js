@@ -7,10 +7,6 @@ app.use(express.json());
 
 
 app.get('/', (req, res) => {
-    res.send('Hello World!')
- })
-
-app.get('/sam', (req, res) => {
     res.send('Name:O HaeWon')
  })
 
