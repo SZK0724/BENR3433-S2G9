@@ -13,19 +13,11 @@
     definition: {
       openapi: '3.0.0',
       // ... other options ...
-      components: {
-        securitySchemes: {
-          bearerAuth: {
-            type: 'http',
-            scheme: 'bearer',
-            bearerFormat: 'JWT',
-          },
-        },
-      },
     },
     apis: ['C:/Users/PC/Desktop/BENR 3433 Information Security/assignment/BENR3433-S2G9/index.js'], // Path to the API docs
   };
- 
+
+
  const swaggerDocs = swaggerJsDoc(swaggerOptions);
  app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocs));
  
